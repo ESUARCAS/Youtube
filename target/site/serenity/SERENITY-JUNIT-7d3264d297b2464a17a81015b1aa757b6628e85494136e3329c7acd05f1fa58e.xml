@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="as Android user, I wanna log in to Google and play a video on YouTube" skipped="0" tests="1" time="131.31" timestamp="2019-08-28 06:12:33"><testcase name="Reproduce a video on the Youtube website"><error message="Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc=&quot;More&quot;] to be displayed (tried for 5 second(s) with 100 milliseconds interval)&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-V2639AOV', ip: '172.22.128.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'LAPTOP-V2639AOV', ip: '172.22.128.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc="More"] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2639AOV', ip: '172.22.128.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2639AOV', ip: '172.22.128.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown</error><system-err>Expected condition failed: waiting for By.xpath: //android.widget.Button[@content-desc="More"] to be displayed (tried for 5 second(s) with 100 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2639AOV', ip: '172.22.128.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-V2639AOV', ip: '172.22.128.136', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: unknown&#13;
+tasks.Login.performAs(Login.java:42)&#13;
+step_definitions.Youtube.iEnterTheCredentialsOfEsuarcaGmailComWithToAccesYoutubeAndPlayTheOneStrangeRockTrailer(Youtube.java:31)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>
